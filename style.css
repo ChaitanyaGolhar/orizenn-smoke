@@ -60,3 +60,27 @@ footer {
   text-align: center;
   padding: 24px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  gap: 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border: 1px solid #9bb59b;
+  border-radius: 4px;
+  font: inherit;
+}
+
+#fixtures thead th {
+  background: #1f5f2b;
+  color: white;
+}
