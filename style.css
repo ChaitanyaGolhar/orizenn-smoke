@@ -26,7 +26,7 @@ main {
 }
 
 #hero img {
-  width: 1200px;
+  width: 100%;
   height: auto;
 }
 
@@ -83,4 +83,22 @@ textarea {
 #fixtures thead th {
   background: #1f5f2b;
   color: white;
+}
+
+.drills {
+  padding-left: 24px;
+  line-height: 1.6;
+}
+
+.drills li {
+  margin-bottom: 6px;
+}
+
+.drills li::marker {
+  color: #1f5f2b;
+  font-weight: bold;
+}
+
+#nets p {
+  color: #4a5d4a;
 }
